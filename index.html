@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asia Flight Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <span class="logo" aria-label="Flight Tracker Logo">🌴</span>
+        <div>
+          <h1 class="header-title">Asia Flight Tracker</h1>
+          <p class="header-subtitle">5 legs &middot; Hong Kong to Hanoi</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="update-info">
+          <span class="pulse-dot"></span>
+          <span id="lastUpdated" class="update-text">Loading...</span>
+        </div>
+        <button data-theme-toggle aria-label="Switch theme" class="theme-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Summary Cards -->
+    <section class="summary" id="summaryCards">
+      <!-- Dynamically populated -->
+    </section>
+
+    <!-- Expanded detail panel (shown below summary when a card is clicked) -->
+    <section class="detail-panel" id="detailPanel">
+      <!-- Dynamically populated -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Prices from Google Flights &middot; Updated approximately every hour &middot; All prices in USD</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
