@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
 Scrape cheapest flight prices and price insights from Google Flights.
-Writes results to flight_data.json in the same directory.
+Writes results to the project-root flight_data.json file.
 
 Usage:
-    pip install playwright
+    pip install -r scripts/requirements.txt
     playwright install chromium
-    python3 scrape_flights.py
+    python3 scripts/scrape_flights.py
 """
 
 import json
@@ -17,7 +17,8 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-OUTPUT_FILE = SCRIPT_DIR / "flight_data.json"
+PROJECT_ROOT = SCRIPT_DIR.parent
+OUTPUT_FILE = PROJECT_ROOT / "flight_data.json"
 
 # Define your itinerary here
 ROUTES = [

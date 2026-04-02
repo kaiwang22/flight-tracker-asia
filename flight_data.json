@@ -1,0 +1,211 @@
+{
+  "last_updated": "2026-04-02T18:23:15.238086+00:00",
+  "total_cheapest": "$522",
+  "routes": [
+    {
+      "order": 0,
+      "from_city": "Hong Kong",
+      "from_code": "HKG",
+      "to_city": "Bangkok",
+      "to_code": "BKK",
+      "date": "2026-05-26",
+      "cheapest_price": "$119",
+      "flights": [
+        {
+          "price_usd": "$119"
+        },
+        {
+          "price_usd": "$128"
+        },
+        {
+          "price_usd": "$175"
+        },
+        {
+          "price_usd": "$178"
+        },
+        {
+          "price_usd": "$238"
+        },
+        {
+          "price_usd": "$321"
+        },
+        {
+          "price_usd": "$409"
+        }
+      ],
+      "total_options": 7,
+      "price_insights": {
+        "level": "high",
+        "typical_low": "$65",
+        "typical_high": "$110",
+        "insight_text": "$119 is high. Usually costs between $65-$110.",
+        "trend": "",
+        "notes": "$119 is high"
+      }
+    },
+    {
+      "order": 1,
+      "from_city": "Bangkok",
+      "from_code": "BKK",
+      "to_city": "Phuket",
+      "to_code": "HKT",
+      "date": "2026-05-30",
+      "cheapest_price": "$52",
+      "flights": [
+        {
+          "price_usd": "$52"
+        },
+        {
+          "price_usd": "$78"
+        },
+        {
+          "price_usd": "$80"
+        },
+        {
+          "price_usd": "$87"
+        },
+        {
+          "price_usd": "$90"
+        }
+      ],
+      "total_options": 5,
+      "price_insights": {
+        "level": "high",
+        "typical_low": "$25",
+        "typical_high": "$40",
+        "insight_text": "$52 is high. Usually costs between $25-$40.",
+        "trend": "",
+        "notes": "$52 is high"
+      }
+    },
+    {
+      "order": 2,
+      "from_city": "Phuket",
+      "from_code": "HKT",
+      "to_city": "Kuala Lumpur",
+      "to_code": "KUL",
+      "date": "2026-06-03",
+      "cheapest_price": "$77",
+      "flights": [
+        {
+          "price_usd": "$77"
+        },
+        {
+          "price_usd": "$92"
+        },
+        {
+          "price_usd": "$126"
+        },
+        {
+          "price_usd": "$130"
+        },
+        {
+          "price_usd": "$340"
+        }
+      ],
+      "total_options": 5,
+      "price_insights": {
+        "level": "high",
+        "typical_low": "$35",
+        "typical_high": "$65",
+        "insight_text": "$77 is high. Usually costs between $35-$65.",
+        "trend": "",
+        "notes": "$77 is high"
+      }
+    },
+    {
+      "order": 3,
+      "from_city": "Kuala Lumpur",
+      "from_code": "KUL",
+      "to_city": "Bali",
+      "to_code": "DPS",
+      "date": "2026-06-05",
+      "cheapest_price": "$87",
+      "flights": [
+        {
+          "price_usd": "$87"
+        },
+        {
+          "price_usd": "$97"
+        },
+        {
+          "price_usd": "$100"
+        },
+        {
+          "price_usd": "$110"
+        },
+        {
+          "price_usd": "$112"
+        },
+        {
+          "price_usd": "$123"
+        },
+        {
+          "price_usd": "$156"
+        },
+        {
+          "price_usd": "$173"
+        },
+        {
+          "price_usd": "$188"
+        }
+      ],
+      "total_options": 9,
+      "price_insights": {
+        "level": "high",
+        "typical_low": "",
+        "typical_high": "",
+        "insight_text": "Tracked flight prices",
+        "trend": "",
+        "notes": "Price is high (no range data)"
+      }
+    },
+    {
+      "order": 4,
+      "from_city": "Bali",
+      "from_code": "DPS",
+      "to_city": "Hanoi",
+      "to_code": "HAN",
+      "date": "2026-06-08",
+      "cheapest_price": "$187",
+      "flights": [
+        {
+          "price_usd": "$187"
+        },
+        {
+          "price_usd": "$190"
+        },
+        {
+          "price_usd": "$201"
+        },
+        {
+          "price_usd": "$209"
+        },
+        {
+          "price_usd": "$211"
+        },
+        {
+          "price_usd": "$218"
+        },
+        {
+          "price_usd": "$237"
+        },
+        {
+          "price_usd": "$256"
+        },
+        {
+          "price_usd": "$312"
+        }
+      ],
+      "total_options": 9,
+      "price_insights": {
+        "level": "high",
+        "typical_low": "$90",
+        "typical_high": "$110",
+        "insight_text": "$187 is high. Usually costs between $90-$110.",
+        "trend": "",
+        "notes": "$187 is high"
+      }
+    }
+  ]
+}

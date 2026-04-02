@@ -1,4 +1,2 @@
-requirements.txt
-scrape_flights.py
+scripts/
 .claude
-flight_data.json
